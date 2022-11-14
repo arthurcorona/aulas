@@ -38,6 +38,9 @@ Para criar uma branch, basta usar:
 
 O -M "", diferentemente do commit, estará adicionando um nome a Branch
 
+É importante falarmos um pouco do push e do pull, que são comandos, como dizem o próprio nome, de empurrar e puxar os arquivos.
+Com `git push` , você estará enviando suas modificações e commits para a nuvem, já com o `git pull` , você estará trazendo as novas modificações e commits que não foi você quem enviou, ou se mudou diretamente na nuvem e não no editor de código. Deve-se constar que os dois devem estar adequados, ou seja, não é possível você dar um "push", se houver algo diferente do seu código na nuvem, portanto, primeiro você deve dar um git pull, para depois o git push.
+
 É possível comparar as diferenças de um arquivo no git e em outro lugar com o comando:
 `git diff --nome`
 
